@@ -9,7 +9,7 @@ dependencies:
   override:
     - npm install -g chimp
     - npm install -g selenium-standalone
-    - selenium-standalone install
+    - ./node_modules/selenium-standalone/bin/selenium-standalone install
 
 test:
   override:
