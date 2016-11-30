@@ -1,19 +1,16 @@
 machine:
-
   node:
     version: 6.3.0
 
 dependencies:
-
   cache_directories:
     - "node_modules"
     - "~/.npm"
-
   override:
     - npm install chimp
     - npm install selenium-standalone
+    - selenium-standalone install
 
 test:
-  
   override:
     - npm test
