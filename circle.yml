@@ -8,6 +8,7 @@ dependencies:
     - "~/.npm"
   override:
     - npm install chimp
+    - npm install selenium-standalone
 
 test:
   override:
