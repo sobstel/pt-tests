@@ -3,4 +3,4 @@ node_js:
   - "6"
 env:
   - TEST_DIR=tests/functional/
-script: cd $TEST_DIR && npm install && npm install chimp && npm install phantomjs && HOST=prod npm run ci --browser=phantomjs
+script: cd $TEST_DIR && npm install && HOST=prod npm run ci --browser=phantomjs

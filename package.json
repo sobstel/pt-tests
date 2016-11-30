@@ -10,7 +10,8 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "chimp": "^0.41.2"
+  "dependencies": {
+    "chimp": "^0.41.2",
+    "phantom.js": "^2.0"
   }
 }
