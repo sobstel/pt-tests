@@ -1,4 +1,4 @@
 language: node_js
 node_js:
   - "6"
-script: yarn install && HOST=prod npm run ci
+script: HOST=prod chimp --browser=phantomjs

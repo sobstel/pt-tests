@@ -12,6 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "chimp": "^0.41.2",
-    "phantomjs": "^2.1"
+    "phantomjs-prebuilt": "^2.1"
   }
 }
