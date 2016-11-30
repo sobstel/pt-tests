@@ -4,7 +4,7 @@
   "description": "Acceptance Test-Driven ProTipster",
   "main": "index.js",
   "scripts": {
-    "test": "LC_NUMERIC=en_US.UTF-8 chimp --browser=chromium-browser",
+    "test": "LC_NUMERIC=en_US.UTF-8 chimp --browser=phantomjs",
     "watch": "LC_NUMERIC=en_US.UTF-8 chimp --watch",
     "ci": "LC_NUMERIC=en_US.UTF-8 chimp --browser=phantomjs --screenshotsOnError=true"
   },
